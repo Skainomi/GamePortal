@@ -1,0 +1,170 @@
+.background-cover-black {
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: white;
+}
+
+body {
+  background-color: rgb(0, 0, 0, 0.8);
+  margin: 0px;
+  position: absolute;
+  right: 0;
+  left: 0;
+  height: 100%;
+  color: white;
+}
+
+main {
+  position: relative;
+  top: 85px;
+}
+
+h1 {
+  color: black;
+}
+
+.navItemUser {
+  margin-left: 46vw !important;
+  vertical-align: middle;
+}
+
+.dropdownTable {
+  float: left;
+}
+
+.navItemUser .img {
+  width: 50px;
+  height: 40px;
+}
+
+nav {
+  animation: smoothFadeIn 1s 0s;
+  font-size: 2.3em;
+  background-color: rgba(17, 17, 17, 0.85) !important;
+  position: fixed !important;
+  width: 100%;
+  z-index: 20;
+  box-shadow: 0 0 3 0 black;
+  position:sticky;
+}
+
+.dropdownItemManager {
+  border-radius: 25px;
+  padding: 20px;
+  position: absolute;
+  z-index: 10;
+  background: rgba(17, 17, 17, 0.85);
+  display: none;
+  width: 90%;
+  left: 4vw !important;
+}
+
+.dropdownImg {
+  position: absolute;
+  left: 50%;
+  width: 60vw;
+  top: -66px;
+  height: 30vw;
+  z-index: 50;
+  cursor: pointer;
+}
+
+.dropDownImgOverlay{
+  position: absolute;
+  z-index: 100;
+  left: 50%;
+  width: 60vw;
+  top: -66px;
+  height: 30vw;
+  /* display: none; */
+}
+
+.contentDropdown {
+  position: relative;
+  display: none;
+}
+
+.dropdownLeft {
+  margin-left: 0 !important;
+}
+
+.dropdownRight {
+  position: absolute;
+  margin-left: 20vw;
+  top: 0;
+}
+
+.textDropDown {
+  font-family: GAMERIA, sans-serif;
+  opacity: 0;
+  position: absolute;
+  width: 800px;
+  font-size: 6rem;
+  text-decoration: underline;
+  text-align: center;
+  left: 50%;
+  margin-top: 50px;
+  margin-left: 40px;
+  text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+  z-index: 100;
+}
+
+.dropdownItem {
+  margin: .3vh 2vw;
+  filter: brightness(40%);
+  transition-property: all;
+  transition-duration: 1.5s;
+}
+
+.dropdownItemhover {
+  transition: 1.5s;
+  filter: brightness(100%);
+}
+
+.dropdownItemCoverBlack {}
+
+.dropdownItemUnCoverBlack {
+  display: none;
+}
+
+.iconDropdown {
+  width: 80px;
+  height: 80px;
+}
+
+.box {
+  box-shadow: 3px 3px 3px 3px white;
+  padding: 5px 40px;
+  margin: 0px 20px;
+  border-radius: 20px;
+}
+
+.box {
+  box-shadow: 3px 3px 3px 3px white;
+  padding: 5px 40px;
+  margin: 20px 20px;
+  border-radius: 20px;
+}
+
+.box {
+  padding: 5px 40px;
+  margin: 20px 0;
+  border-radius: 20px;
+}
+
+footer {
+  margin-top: 200px;
+}

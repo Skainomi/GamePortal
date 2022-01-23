@@ -1,0 +1,113 @@
+.content {}
+
+body, button, input {
+  font-family: 'Roboto', sans-serif !important;
+  color:black !important;
+}
+
+label {
+  margin-right: 12px;
+  font-size: 23px;
+  font-style: oblique;
+}
+
+label .textMainMenu {
+  margin-right: 12px;
+  font-size: 23px;
+}
+
+label .textMainMenu .textarea {
+  margin-right: 12px;
+  font-size: 23px;
+  box-shadow: 0 0 0 2pt black;
+}
+
+.userAccount {}
+
+.button {
+  background: rgb(0, 0, 0);
+  color: white;
+  font-size: 25px;
+  position: relative;
+  outline-style: none;
+  border-radius: 16px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: white;
+  transition-duration: 1s;
+  padding: 3px 44px;
+  font-family: 'Roboto', sans-serif !important;
+  color: white;
+  border-radius: 16px;
+  border-color: white;
+}
+
+hr {
+  border: 0;
+  clear:both;
+  display:block;
+  width: 96%;
+  background-color:black;
+  height: 1px;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+th{
+  background:green;
+}
+
+.button:hover {
+  background-color: #4CAF50;
+}
+
+.inputText {
+  height: 22px;
+  width: 320px;
+  box-shadow: 0 0 0 2pt black;
+}
+
+.inputTextAge {
+  height: 22px;
+  box-shadow: 0 0 0 2pt black;
+}
+
+.inputTextArea {
+  box-shadow: 0 0 0 2pt black;
+}
+
+.isiform {
+  backdrop-filter: blur(10px);
+  display: block;
+  margin: 0 !important;
+  overflow: hidden;
+  width: max-content;
+  background-color: rgb(102, 153, 153, 0.8);
+  padding: 20px 40px 5px 40px;
+  border-radius: 20px;
+  box-shadow: 0 0 0 2pt black;
+  animation: fade 3s 0s;
+}
+
+.textRegister {
+  font-family: GAMERIA, sans-serif;
+  font-size: 5rem;
+  text-shadow: -2px -2px 0 #fff, 2px -2px 0 #fff, -2px 2px 0 #fff, 2px 2px 0 #fff;
+}
+
+.gambarForm {}
+
+.isiMainMenu {
+  backdrop-filter: blur(10px);
+  margin-top: 15vh !important;
+  margin: 0 auto;
+  display: block;
+  width: 30vw;
+  background-color: rgb(102, 153, 153, 0.8);
+  padding: 40px 20px;
+  border-radius: 20px;
+  box-shadow: 0 0 0 2pt black;
+  animation: fade 3s 0s;
+}

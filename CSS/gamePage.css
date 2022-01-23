@@ -1,0 +1,213 @@
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.7)), url("../Img/Rmmv/background.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-blend-mode: darken;
+  backdrop-filter: blur(4px);
+}
+
+.bodyCandy {
+  background: linear-gradient(rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.7)), url("../Img/unity/background.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-blend-mode: darken;
+  backdrop-filter: blur(4px);
+}
+
+.tableUpdate {
+  width: 100%;
+}
+
+.tableUpdate tr {
+  border-bottom: 3px solid white;
+}
+
+.downloadBanner {
+  border: 3px solid white;
+  border-radius: 30px;
+  padding: 10px 10px;
+  height: 400px;
+  font-size: 2rem;
+  background: linear-gradient(rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.7)), url("../Img/Rmmv/downloadBanner.png");
+  background-size: 100% 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-blend-mode: darken;
+  backdrop-filter: blur(4px);
+}
+
+.downloadBannerCandy {
+  border: 3px solid white;
+  border-radius: 30px;
+  padding: 10px 10px;
+  height: 400px;
+  font-size: 2rem;
+  background: linear-gradient(rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.7)), url("../Img/unity/downloadBanner.jpg");
+  background-size: 100% 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-blend-mode: darken;
+  backdrop-filter: blur(4px);
+}
+
+.updateBanner {
+  border: 3px solid white;
+  border-radius: 30px;
+  padding: 10px 10px;
+  height: 400px;
+  font-size: 2rem;
+  background: linear-gradient(rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.7)), url("../Img/unity/updateBackground.jpg");
+  background-size: 100% 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-blend-mode: darken;
+  backdrop-filter: blur(4px);
+}
+
+.updateBannerCandy {
+  border: 3px solid white;
+  border-radius: 30px;
+  padding: 10px 10px;
+  height: 400px;
+  font-size: 2rem;
+  background: linear-gradient(rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.7)), url("../Img/Rmmv/updateBackground.jpg");
+  background-size: 100% 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-blend-mode: darken;
+  backdrop-filter: blur(4px);
+}
+
+.isiUpdate {
+  overflow: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  height: 300px;
+}
+
+.isiUpdate::-webkit-scrollbar {
+  display: none;
+}
+
+.previewBanner {
+  border: 3px solid white;
+  /* padding: 10px 10px; */
+  height: 500px;
+  border-radius: 30px;
+  text-align: center;
+  font-size: 2rem;
+  position: relative;
+}
+
+.previewBannerTitle {
+  position: relative;
+  border-bottom: 3px solid white;
+  height: 50px;
+  width: 100%;
+  font-size: 2rem;
+}
+
+.previewBannerText {
+  font-family: GAMERIA, sans-serif;
+  position: absolute;
+  color: white;
+  opacity: 1;
+  width: 70%;
+  font-size: 6rem;
+  opacity: 0;
+  margin-top: 50px;
+  text-decoration: underline;
+  left: 50%;
+  margin-left: -35%;
+  top: -240px;
+  text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+  z-index: 100;
+  animation: smoothFadeInTop 2s 0s;
+  animation-fill-mode: forwards;
+}
+
+.frontBanner {
+  border: 3px solid white;
+  border-radius: 30px;
+  padding: 10px 10px;
+  height: 590px;
+  font-size: 2rem;
+  background: linear-gradient(rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.7)), url("../Img/Rmmv/frontBanner.jpg");
+  background-size: 100% 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-blend-mode: darken;
+  backdrop-filter: blur(4px);
+  width: 1100px;
+  margin: 0px 200px 0px 125px;
+  position: relative;
+  margin-bottom: 200px;
+}
+
+.frontBannerCandy {
+  border: 3px solid white;
+  border-radius: 30px;
+  padding: 10px 10px;
+  height: 590px;
+  font-size: 2rem;
+  background: linear-gradient(rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.7)), url("../Img/unity/frontBanner.jpg");
+  background-size: 100% 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-blend-mode: darken;
+  backdrop-filter: blur(4px);
+  width: 1100px;
+  margin: 0px 200px 0px 125px;
+  position: relative;
+  margin-bottom: 200px;
+}
+
+.frontBannerText {
+  font-family: GAMERIA, sans-serif;
+  position: absolute;
+  color: white;
+  opacity: 1;
+  width: 1000px;
+  font-size: 8rem;
+  opacity: 0;
+  text-decoration: underline;
+  /* text-align: center; */
+  margin-top: 50px;
+  left: 135px;
+  top: 50px;
+  text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+  z-index: 100;
+  animation: smoothFadeInTop 2s 1s;
+  animation-fill-mode: forwards;
+}
+
+.frontBannerImg {
+  font-family: GAMERIA, sans-serif;
+  position: absolute;
+  color: white;
+  opacity: 1;
+  width: 300px;
+  font-size: 8rem;
+  opacity: 0;
+  text-decoration: underline;
+  text-align: center;
+  margin-top: 50px;
+  left: 50%;
+  height: 300px;
+  top: 190px;
+  margin-left: -150px;
+  text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+  z-index: 50;
+  animation: smoothFadeInTop 2s 3s;
+  animation-fill-mode: forwards;
+}

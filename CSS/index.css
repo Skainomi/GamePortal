@@ -1,0 +1,244 @@
+body {
+  background-color: rgb(38, 38, 38) !important;
+}
+
+.frontBanner {
+  padding: 2px 0;
+  margin: 0px 0;
+  height: 600px;
+}
+
+.bannerImg {
+  box-shadow: 0px 18px 20px 30px black;
+  width: 100%;
+  height: 600px;
+  z-index: -2;
+  pointer-events: none;
+  cursor: default;
+}
+
+.bannerText {
+  font-family: Roboto, sans-serif;
+  position: absolute;
+  width: 80vw;
+  left: 50%;
+  margin-left: -40vw;
+  font-size: 5rem;
+  top: 0px;
+  text-align: center;
+  z-index: 3;
+  text-decoration: underline;
+}
+
+.frontBannerButton {
+  font-family: Pacifico, sans-serif;
+  background: rgb(0, 0, 0);
+  color: white;
+  position: absolute;
+  outline-style: none;
+  border-radius: 16px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: white;
+  transition-duration: 1s;
+  font-size: 40px;
+  padding: 0px !important;
+  top: 500px;
+  left: 50%;
+  width: 200px;
+  margin-left: -100px;
+  border-radius: 60px;
+  color: white;
+  border-radius: 16px;
+  border-color: white;
+  z-index: 5;
+}
+
+.frontBannerButton:hover {
+  background-color: #4CAF50;
+}
+
+.backgroundCoverBlack {
+  background-color: rgb(0, 0, 0, 0.6);
+  z-index: 2;
+  position: absolute;
+  box-shadow: 0px 18px 20px 30px black;
+}
+
+.backgroundCoverBlackBanner {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 600px;
+}
+
+.backgroundCoverBlackGame {
+  box-shadow: 18px 18px 20px 30px rgb(0, 0, 0, .6);
+  position: absolute;
+  height: 60vh;
+  margin-left: 100px;
+  margin-right: 138px;
+  width: 81.5vw;
+}
+
+.gameBanner {
+  position: relative;
+  margin: 100px 0px;
+  width: 100%;
+  height: 60vh;
+}
+
+.gameBannerText {
+  font-family: GAMEPLAY, sans-serif;
+  position: absolute !important;
+  width: 100%;
+  left: 100%;
+  margin-left: -100%;
+  font-size: 5rem;
+  top: 50% !important;
+  margin-top: -44px;
+  text-align: center;
+  z-index: 3;
+}
+
+.lastBanner{
+  position: relative;
+  margin-top: 320px;
+  left: 50%;
+  margin-left: -43vw;
+  width: 86vw;
+  height: 43vw;
+  border-radius: 20px;
+  border: 5px solid white;
+}
+
+.lastBannerText{
+  font-family: GAMEPLAY, sans-serif;
+  position: absolute !important;
+  width: 100%;
+  left: 100%;
+  margin-left: -100%;
+  font-size: 8rem;
+  top: 50% !important;
+  margin-top: -80px;
+  text-align: center;
+  z-index: 3;
+  text-shadow: -2px -2px 0 #fff, 2px -2px 0 #fff, -2px 2px 0 #fff, 2px 2px 0 #fff;
+  text-decoration: underline;
+}
+
+.backgroundCoverBlackGameText {
+  /* rgb(0, 0, 0, 1) */
+  background-color: rgb(0, 0, 0, 0) !important;
+  box-shadow: 0px 0px 0px 0px black;
+  position: absolute !important;
+  height: 66.6vh;
+  width: 84vw;
+  left: 50%;
+  margin: 0px 100px;
+  margin-left: -42vw;
+  top: 750px;
+  z-index: 4;
+}
+
+.isiGameBanner {
+  opacity: .15;
+  background-image: url("../Img/home/gameBanner1.png");
+  background-repeat: no-repeat;
+  background-size: 84vw 32.4vh;
+  border-radius: 10px 10px 10px 10px;
+  position: absolute;
+  width: 84vw;
+  height: 32.4vh;
+  margin-left: 100px;
+  margin-right: 138px;
+  z-index: 1;
+}
+
+.gameBannerName {
+  text-align: center;
+  position: absolute;
+  color: white;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  font-size: 4rem;
+  width: 84vw;
+  top:80px;
+  left: 50%;
+  margin-left: -42vw;
+  opacity: 0;
+}
+
+.gameBannerImg{
+  position: absolute;
+  width: 100px;
+  height: 15vh;
+  top:60px;
+  left: 50%;
+  margin-left: -50px;
+}
+
+.topUpBanner {
+  position: relative;
+  box-shadow: 0px 0px 8px 8px rgb(38, 38, 38) inset;
+  background-image: url("../Img/home/TopUpBanner.png");
+  background-repeat: no-repeat;
+  background-size: 100% 66.6vh;
+  height: 66.6vh;
+  margin: auto auto;
+}
+
+.bannerImgActor {
+  left: -40px;
+  position: absolute;
+  opacity: 0;
+  z-index: 5;
+}
+
+.topUpBanner .text {
+  opacity: 0;
+  font-size: 4rem;
+  font-family: shark;
+  position: absolute;
+  color: white;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  text-align: center;
+  width: 84vw;
+  left: 50%;
+  margin-left: -42vw;
+}
+
+.topUpBanner .textAfter {
+  animation: smoothFadeInTop 1s 0s;
+  animation-fill-mode: forwards;
+}
+
+.topUpBanner .pointerTopUp {
+  animation: smoothFadeInTop .01s 0s !important;
+  top: 300px;
+}
+
+.colider {
+  cursor: pointer;
+  position: absolute;
+  top: 300px;
+  height: 100px;
+  z-index: 10;
+  width: 30vw;
+  left: 50%;
+  margin-left: -15vw;
+}
+
+.bannerImgEnemy {
+  right: 40px;
+  position: absolute;
+  opacity: 0;
+  width: 300px;
+  height: 300px;
+  z-index: 5;
+}
+
+footer {
+  margin-top: 100px;
+  background-color: black;
+}
